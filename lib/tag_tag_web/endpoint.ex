@@ -1,6 +1,8 @@
 defmodule TagTagWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :tag_tag
 
+  socket "/live", Phoenix.LiveView.Socket
+
   socket "/socket", TagTagWeb.UserSocket,
     websocket: true,
     longpoll: false

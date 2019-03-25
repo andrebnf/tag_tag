@@ -52,7 +52,8 @@ config :tag_tag, TagTagWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/tag_tag_web/views/.*(ex)$},
-      ~r{lib/tag_tag_web/templates/.*(eex)$}
+      ~r{lib/tag_tag_web/templates/.*(eex)$},
+      ~r{lib/my_app_web/live/.*(ex)$}
     ]
   ]
 
