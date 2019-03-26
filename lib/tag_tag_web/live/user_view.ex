@@ -5,7 +5,7 @@ defmodule MyAppWeb.UserView do
     ~L"""
     <div class="a-class">
       <div>
-        <button phx-click="i_change">Change!</button>
+        <button class="btn btn-primary" phx-click="i_change">Change!</button>
       </div>
       <div>
         <%= @test_string %>
