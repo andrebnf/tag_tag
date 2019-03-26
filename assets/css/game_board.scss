@@ -1,0 +1,33 @@
+html {
+  overflow-x: hidden;
+}
+
+.game-container {
+  position: absolute;
+
+  .block {
+    display: block;
+    position: absolute;
+  }
+
+  .block.wall {
+    background: rgb(29, 29, 95);
+  }
+
+  .block.empty {
+    background: #fafafa;
+  }
+}
+
+.player-block {
+  position: relative;
+  z-index: 999;
+
+  span {
+    background-color: #8a05de;
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}

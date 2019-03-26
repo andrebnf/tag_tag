@@ -3,6 +3,6 @@ defmodule TagTagWeb.PageController do
   alias Phoenix.LiveView
 
   def index(conn, _params) do
-    LiveView.Controller.live_render(conn, MyAppWeb.UserView, session: %{})
+    LiveView.Controller.live_render(conn, TagTagWeb.GameLive, session: %{})
   end
 end
